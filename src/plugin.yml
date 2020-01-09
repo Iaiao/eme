@@ -1,0 +1,21 @@
+name: eMe
+version: 2.2.8
+main: mc.iaiao.me.Me
+api-version: 1.13
+author: Iaiao
+commands:
+  me:
+    description: "Local /me"
+    usage: /<command> <сообщение>
+    permission: me.local
+  eme:
+    desctiption: "Global /eme"
+    usage: /<command> <сообщение>
+    permission: me.global
+permissions:
+  me.local:
+    description: "/me"
+    default: true
+  me.global:
+    description: "/eme"
+    default: true

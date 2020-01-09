@@ -1,0 +1,3 @@
+local-radius: 200
+local-message: "* <player> <message>*"
+global-message: "* <player> <message>*"
